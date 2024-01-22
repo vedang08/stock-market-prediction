@@ -1,1 +1,5 @@
-# stock-market-prediction
+# Stock Market Prediction with Multivariate Timeseries forecasting using LSTM
+
+Time-series forecasting involves using past values of an independent variable (x) to predict future values of a dependent variable (y). When the prediction model uses a single independent variable, it’s known as univariate forecasting. In contrast, multivariate forecasting involves predicting a dependent variable based on multiple independent variables.
+In the given example, a time series model is applied to Google’s stock market data. The model, which uses Long Short-Term Memory (LSTM), performs multivariate time series forecasting. It predicts the opening price of the stock based on five historical data points: the opening, closing, highest, lowest, and adjusted closing prices. The model takes an input shape defined by the window length and these five features.
+A univariable forecast model simplifies this process by focusing on a single factor, such as predicting the opening price of the stock based solely on the historical opening price. On the other hand, a multivariate stock market prediction model takes into account the interrelationships between multiple variables, providing a more comprehensive representation of reality. As a result, multivariate models often yield more accurate predictions than their univariate counterparts.
